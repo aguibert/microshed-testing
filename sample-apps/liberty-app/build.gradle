@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-  providedCompile 'javax:javaee-api:8.0'
+  providedCompile 'javax:javaee-api:8.0.1'
   providedCompile 'org.eclipse.microprofile:microprofile:3.0'
   testCompile project(':microshed-testing-testcontainers')
   testCompile project(':microshed-testing-liberty')

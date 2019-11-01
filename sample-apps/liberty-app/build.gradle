@@ -8,7 +8,7 @@ dependencies {
   testCompile project(':microshed-testing-testcontainers')
   testCompile project(':microshed-testing-liberty')
   testCompile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.26'
-  testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+  testImplementation 'org.junit.jupiter:junit-jupiter:5.5.2'
 }
 
 war.archiveName 'myservice.war'

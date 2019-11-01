@@ -4,7 +4,7 @@
 
 //Colors
 $dark: #2f2f2f;
-$birch: #f8dfa1;
+$light-blue: #00c3dd;
 $light-birch: #ffedc1;
 $dark-birch: #96855b;
 $grey: #948f8f;
@@ -63,7 +63,7 @@ a:hover svg, a:focus {
 
 sidebar {
   a {
-    color:$birch;
+    color:$light-blue;
     text-decoration:none;
   }
   
@@ -144,7 +144,7 @@ img {
 
 sidebar {
   grid-area: nav;
-  color: $grey;
+  color: $light-blue;
   height: calc(100% - 20px);
   padding: 10px 10px 10px 25px;
   background: $dark;
@@ -302,7 +302,7 @@ footer {
 .octicon-mark {
 	width: 32px;
 	height: 32px;
-	fill: $birch;
+	fill: $light-blue;
 }
 
 a#text {

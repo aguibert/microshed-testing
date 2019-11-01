@@ -13,7 +13,7 @@ dependencies {
   testCompile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.26'
   testCompile project(':microshed-testing-testcontainers')
   testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-  postgres "org.postgresql:postgresql:42.2.5"
+  postgres "org.postgresql:postgresql:42.2.8"
 }
 
 task copyDriver(type: Copy) {
